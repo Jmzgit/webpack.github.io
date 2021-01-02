@@ -17,5 +17,11 @@ sudo apt-get install -y nodejs
 npm install --save-dev webpack-cli
 
 create a 2 folder
-   1 - for source of Bundle
-   2 - for origin where I want to inject
+   1 - <src>for source of Bundle
+   2 - <dist> for origin where I want to inject
+   3 - add .js files to src folder
+   4 - build Bundle
+      $ ./node_modules/webpack/bin/webpack.js --mode development
+
+ref:
+https://openwebinars.net/blog/webpack-como-generar-un-bundle/

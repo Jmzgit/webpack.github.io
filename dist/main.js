@@ -10,6 +10,6 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-eval("alert(\"ehlow hord\");\n\ndocument.write(\"this is document.write\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\ndocument.write(\"this is document.write\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
 /******/ })()
 ;
