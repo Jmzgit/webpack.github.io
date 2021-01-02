@@ -1,0 +1,21 @@
+Instuction for installing Webpack for Ubuntu 16/.04
+
+## FIRST MAKE SURE TO HAVE PROPER NODE.JS VERSION INSTALLED TO AVOID npm crashes
+Node.js LTS (v10.x):
+
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+
+ install webpack
+ $  npm install --save-dev webpack@4.25.1
+
+
+ If you're using webpack v4 or later, you'll also need to install the CLI.
+
+npm install --save-dev webpack-cli
+
+create a 2 folder
+   1 - for source of Bundle
+   2 - for origin where I want to inject
